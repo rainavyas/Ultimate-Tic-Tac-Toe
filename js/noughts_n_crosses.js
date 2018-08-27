@@ -14,7 +14,7 @@ class Grid {
     //create lists of values we need
     for(i = 0; i<9; i++){
       if (this.arr_grid_vals[i] == XorO){
-        check_list.push(to_tenary(i)[0].toString()+to_tenary(i)[0].toString())
+        check_list.push(to_tenary(i)[0].toString()+to_tenary(i)[1].toString())
         first_list.push(to_tenary(i)[0])
         second_list.push(to_tenary(i)[1])
       }
@@ -30,11 +30,12 @@ class Grid {
     }
 
     //diagonal check
-    if (check_list.includes("00")&&check_list.includes("11")&&check_list.includes("22")){
+    if ((check_list.includes("00")&&check_list.includes("11"))&&check_list.includes("22")){
       return true
     }
 
-    if (check_list.includes("02")&&check_list.includes("11")&&check_list.includes("20")){
+    if ((check_list.includes("02")&&check_list.includes("11"))&&check_list.includes("20")){
+      window.alert("diag 2")
       return true
     }
 
