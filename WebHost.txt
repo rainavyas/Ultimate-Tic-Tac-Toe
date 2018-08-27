@@ -1,6 +1,6 @@
 Webhost name: 1&1
 pin: 2357
-Server/Host:sftp://home751289271.1and1-data
+Server/Host:9271.1and1-data
 Port: 22
 Protocol: SFTP
 username: u94671204

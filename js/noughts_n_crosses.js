@@ -61,7 +61,6 @@ class Grid {
         return false
       }
     }
-    window.alert("full")
     return true
   };
 }
