@@ -35,7 +35,6 @@ class Grid {
     }
 
     if ((check_list.includes("02")&&check_list.includes("11"))&&check_list.includes("20")){
-      window.alert("diag 2")
       return true
     }
 
