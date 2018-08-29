@@ -1,4 +1,4 @@
-
+// Superclass for the large grid
 class Grid {
   constructor() {
     //0 = empty, 1 = X, 2=0
