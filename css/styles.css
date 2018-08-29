@@ -1,32 +1,29 @@
 body {
     background-color: powderblue;
-}
-h1 {
-    color: blue;
-    font: cambria;
-    padding-left: 200px;
+    color: darkblue;
     text-align: left;
+    text-align-last: center;
+
+    font-family: Arial;
+}
+
+.title{
+  font-size: 12px
+}
+
+h1{
+  padding-left: 200px;
+  text-align-last: left;
+  color: blue;
 }
 
 h2{
-  color: blue;
-  font: cambria;
-  padding-left: 80px;
-  text-align: left;
+  text-align: center;
 }
 
-p {
-    color: black;
-    font-style: italic;
+br{
+  line-height: 200%;
 }
-
-text {
-  color: blue;
-  text-align: left;
-  padding-left: 80px;
-}
-
-
 .overall-container{
   display: flex;
   flex-wrap: wrap;
@@ -53,12 +50,13 @@ text {
 }
 
 .instruct-container{
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  width: 650px;
-  height: 650px;
+  width: 280px;
+  height: 610px;
+  background-color: #f1f1f1;
+  border: 10px solid dodgerBlue;
+  padding: 10px;
   margin-left: 50px;
+  border-radius: 25px;
 }
 
 button {
